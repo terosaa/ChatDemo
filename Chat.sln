@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "Chat\Chat.csproj", "{3C296B0F-DC73-4F66-9818-34FFFB168989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B64C4D48-45ED-4982-9FCF-BB1519CFE0A6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{28AC5757-1889-4617-8561-0202817478BE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E2E4A9D7-602F-45B1-9B70-7BDD5281DEC7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Chat-WAWS-dev.json = PublishScripts\Configurations\Chat-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C296B0F-DC73-4F66-9818-34FFFB168989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C296B0F-DC73-4F66-9818-34FFFB168989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C296B0F-DC73-4F66-9818-34FFFB168989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C296B0F-DC73-4F66-9818-34FFFB168989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2E4A9D7-602F-45B1-9B70-7BDD5281DEC7} = {28AC5757-1889-4617-8561-0202817478BE}
+	EndGlobalSection
+EndGlobal
