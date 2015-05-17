@@ -160,10 +160,6 @@
     <Content Include="ApplicationInsights.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Properties\PublishProfiles\Chat1323.pubxml" />
-    <None Include="Properties\PublishProfiles\SignalRChat%28terochat%29 %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\SignalRChat%28terochat%29.pubxml" />
-    <None Include="Properties\PublishProfiles\SignalRChatTero.pubxml" />
-    <None Include="Properties\PublishProfiles\SignalTesti.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
